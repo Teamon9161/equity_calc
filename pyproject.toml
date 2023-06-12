@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=0.14,<0.15"]
+build-backend = "maturin"
+
+[project]
+name = "equity_calc"
+version = "0.1.0"
+dependencies = ["numpy>=1.16.0"]
+authors = [
+  { name="Teamon", email="teamon9161@163.com" },
+]
+description = "Useful functions to calculate equity curve"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
